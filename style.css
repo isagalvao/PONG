@@ -1,7 +1,28 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(73, 72, 72);
+}
 canvas {
   display: block;
+}
+
+h1 {
+font-family:'Press Start 2P', cursive;
+}
+
+button {
+  background: rgb(207, 203, 203);
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 10px;
+  font-family:'Press Start 2P', cursive;
 }
